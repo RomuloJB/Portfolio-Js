@@ -7,7 +7,7 @@
 
 :root[data-theme="light"] {
     --cor-fonte: #000000;
-    --cor-fonte2: rgb(170, 170, 170);
-    --cor-bg: rgb(255, 255, 255);
+    --cor-fonte2: rgb(97, 97, 97);
+    --cor-bg: rgb(204, 204, 204);
     --cor-secundaria: #008080;
 }

@@ -1,0 +1,38 @@
+{
+    "sobre-header": "About",
+    "projetos-header": "Projects",
+    "contato-header": "Contact",
+    "tema-claro": "Light Theme",
+
+    "ola": "Hello World,",
+    "eu-sou": "I am <span>Romulo</span>,<br>Software Engineer.",
+    "descricao": "Focused on solving problems with clean code, best practices and attention to the user. Feel free to explore my projects and to get in touch anytime.",
+
+    "sobre-main": "About me",
+    "paragrafo1": "I am a Software Engineer focused on developing efficient and scalable solutions. I have experience with JAVASCRIPT, HTML, CSS, JAVA, AND PYTHON, always prioritizing clean code and best practices.",
+    "paragrafo2": "I had the opportunity to live in the United States for one year during an exchange student program, where I was able to improve my English and achieve fluency in the language — an experience that also helped me develop skills in adaptability, communication, and working in multicultural environments.",
+    "paragrafo3": "I am currently seeking opportunities to collaborate with teams that value innovation, continuous learning, and delivering real value through technology.",
+
+    "idioma": "Languages",
+    "idioma-en": "English: Fluent",
+    "idioma-pt": "Portuguese: Fluent",
+    "idioma-es": "Spanish: Intermediate",
+
+    "habilidades": "Skills",
+    "hab1": "Adaptability",
+    "hab2": "Communication",
+    "hab3": "Proactivity",
+    "hab4": "Group Work",
+    "hab5": "Organization",
+
+    "tecnologias": "Other Technologies",
+    "tec1": "Git",
+    "tec2": "Github",
+    "tec3": "Figma",
+    "tec4": "MySQL",
+    "tec5": "PostgreSQL",
+
+    "contato": "Contact",
+    "telefone": "Phone",
+    "whatsapp": "<span>Whatsapp:</span> Click Here"
+}

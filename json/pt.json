@@ -1,0 +1,38 @@
+{
+    "sobre-header": "Sobre mim",
+    "projetos-header": "Projetos",
+    "contato-header": "Contato",
+    "tema-claro": "Tema claro",
+
+    "ola": "Olá mundo,",
+    "eu-sou": "Eu sou o <span>Romulo</span>,<br>Engenheiro de Software.",
+    "descricao": "Focado em solucionar problemas com codigo limpo, boas praticas e atenção ao usuario. Sinta-se livre para explorar meus projetos e entrar em contato a qualquer momento.",
+
+    "sobre-main": "Sobre mim",
+    "paragrafo1": "Sou Engenheiro de Software com foco em desenvolvimento de soluções eficientes e escaláveis. Tenho experiência com <span>JAVASCRIPT, HTML, CSS, JAVA E PYTHON</span>, sempre priorizando código limpo e boas práticas.",
+    "paragrafo2": "Tive a oportunidade de morar nos Estados Unidos por 1 ano durante um intercâmbio, onde pude aperfeiçoar o inglês e conquistar a fluência no idioma — experiência que também me ajudou a desenvolver habilidades de adaptação, comunicação e trabalho em ambientes multiculturais.",
+    "paragrafo3": "Atualmente, busco oportunidades para colaborar com times que valorizem inovação, aprendizado constante e entrega de valor real através da tecnologia.",
+
+    "idioma": "Idioma",
+    "idioma-en": "Inglês: Fluente",
+    "idioma-pt": "Português: Fluente",
+    "idioma-es": "Espanhol: Intermediário",
+
+    "habilidades": "Habilidades",
+    "hab1": "Adaptabilidade",
+    "hab2": "Comunicação",
+    "hab3": "Proatividade",
+    "hab4": "Trabalho em equipe",
+    "hab5": "Organização",
+
+    "tecnologias": "Outras Tecnologias",
+    "tec1": "Git",
+    "tec2": "Github",
+    "tec3": "Figma",
+    "tec4": "MySQL",
+    "tec5": "PostgreSQL",
+
+    "contato": "Contato",
+    "telefone": "Telefone",
+    "whatsapp": "<span>Whatsapp:</span> Clique Aqui"
+}   

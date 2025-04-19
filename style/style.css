@@ -101,6 +101,21 @@ header {
     transition: 0.3s;
 }
 
+.botao-idioma {
+    cursor: pointer;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-fonte);
+    padding: 0.5em 0.7em;
+    border: none;
+    border-radius: 100px;
+}
+
+.botao-idioma:hover {
+    background-color: var(--cor-fonte);
+    color: var(--cor-secundaria);
+    transition: 0.3s;
+}
+
 /* inicio para PC*/
 .inicio {
     width: 100%;
@@ -268,53 +283,24 @@ main p{
     margin-left: 1.2em;
 }
 
-.cursos p:first-of-type {
-    padding-top: 0;
+.projetos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
 }
 
-.cursos p{
-    padding: 2.2em 0 1em 0;
-}
-
-.cursos a {
-    font-size: 1em;
-    text-decoration: none;
-    color: var(--cor-fonte);
-    background-color: var(--cor-secundaria);
-    border-radius: 100px;
-    padding: 0.3em 0.6em;
-}
-
-.escolaridade h3{
-    padding: 1em 0;
-}
-
-.escolaridade h4{
-    color: var(--cor-secundaria);
-    padding-bottom: 1em;
-}
-
-#tema2 {
-    margin-top: 2.2em;
-}
-
-.midias a{
-    text-decoration: none;
-    color: var(--cor-fonte);
-    font-size: 1.2em;
-    margin-bottom: 2em;
-}
-
-.midias a span{
-    color: var(--cor-secundaria);
-}
-
-.midias a:hover{
-    color: var(--cor-secundaria);
-    transition: 0.3s;
-    span{
-        color: var(--cor-fonte);
-    }
+.projeto-card {
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    border: 1px solid var(--cor-secundaria);
+    border-radius: 1em;
+    flex: 1 1 calc(100% - 1em);
+    max-width: calc(100% - 1em);
+    min-width: 165px;
+    box-sizing: border-box;
 }
 
 .contato-footer {
@@ -351,7 +337,11 @@ main p{
 }
 
 
+
+
 /* MOBILE */
+
+
 
 
 @media (max-width: 750px) {
@@ -527,46 +517,6 @@ main p{
         display: none;
     }
 
-    .cursos p:first-of-type {
-        padding-top: 0;
-    }
-
-    .cursos p{
-        padding: 2.2em 0 1em 0;
-    }
-
-    .cursos a {
-        font-size: 1em;
-        text-decoration: none;
-        color: var(--cor-fonte);
-        background-color: var(--cor-secundaria);
-        border-radius: 100px;
-        padding: 0.3em 0.6em;
-    }
-
-    #tema2 {
-        margin-top: 2.2em;
-    }
-    
-    .midias a{
-        text-decoration: none;
-        color: var(--cor-fonte);
-        font-size: 1.2em;
-        margin-bottom: 2em;
-    }
-
-    .midias a span{
-        color: var(--cor-secundaria);
-    }
-    
-    .midias a:hover{
-        color: var(--cor-secundaria);
-        transition: 0.3s;
-        span{
-            color: var(--cor-fonte);
-        }
-    }
-    
     .contato-footer {
         font-weight: normal;
     }

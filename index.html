@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Romulo's Portfolio</title>
     <link rel="stylesheet" href="style/style.css">
-    <script defer src="script/script.js"></script>
+    <script defer src="js/script.js"></script>
     <!--LINK PARA ICONES-->
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 </head>
 <body>
+
+<!--HEADER-->
     <header class="header">
         <a class="logo">Romulo's <span>Portfolio</span></a>
         
@@ -18,11 +20,12 @@
             <button class="hamburguer"></button>
 
             <ul class="nav-list">
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#escolaridade">Escolaridade</a></li>
-                <li><a href="#contato">Contato</a></li>
-                <button class="botao-tema">Tema Claro</button>
+                <li><a href="#sobre" data-i18n="sobre-header">Sobre</a></li>
+                <li><a href="#projetos" data-i18n="projetos-header">Projetos</a></li>
+                <!-- <li><a href="#escolaridade">Escolaridade</a></li> -->
+                <li><a href="#contato" data-i18n="contato-header">Contato</a></li>
+                <button class="botao-tema">Light</button>
+                <button class="botao-idioma" aria-label="Botão para alterar o idioma" onclick="alterarIdioma()" aria>PT | EN</button>
             </ul>
         </nav>
     </header>
@@ -30,13 +33,13 @@
     <section class="inicio">
 
         <div class="inicio-texto">
-            <h2>Olá Mundo!</h2>
-            <h1>Eu sou o <span>Rômulo</span>,<br>Engenheiro de Software.</h1>
+            <h2 data-i18n="ola">Olá Mundo!</h2>
+            <h1 data-i18n="eu-sou">Eu sou o <span>Rômulo</span>,<br>Engenheiro de Software.</h1>
             <!-- NAO VAI FUNCIONAR PARA PC, SOMENTE MOBILE-->
             <div class="inicio-img">
                 <img src="imagens/paisagem.jpeg" alt="Foto de Perfil">
             </div>            
-            <h3>Focado em solucionar problemas com codigo limpo, boas praticas e atenção ao usuario. Sinta-se livre para explorar meus projetos e entrar em contato a qualquer momento.</h3>
+            <h3 data-i18n="descricao">Focado em solucionar problemas com codigo limpo, boas praticas e atenção ao usuario. Sinta-se livre para explorar meus projetos e entrar em contato a qualquer momento.</h3>
 
             <div class="inicio-botoes">
                 <a href="https://github.com/RomuloJB" target="_blank" class="botao-github">
@@ -53,22 +56,20 @@
 
             </div>
         </div>
-
-        
-
+<!--BACKGROUND PARA MOBILE-->
         <div class="inicio-img2">
             <img src="imagens/paisagem.jpeg" alt="Foto de Perfil2">
         </div>
-
+<!--SOBRE MIM-->
     </section>
 
     <main class="main">
         <section id="sobre" class="sobre">
             <div id="descricao" class="descricao"> 
-                <h2>Sobre mim</h2>
-                <p>Sou Engenheiro de Software com foco em desenvolvimento de soluções eficientes e escaláveis. Tenho experiência com <span>JAVASCRIPT, HTML, CSS, JAVA E PYTHON</span>, sempre priorizando código limpo e boas práticas.</p>  
-                <p>Sou fluente em português e inglês, além de possuir espanhol em nível intermediário. Tive a oportunidade de morar nos Estados Unidos por 1 ano durante um intercâmbio, onde pude aperfeiçoar o inglês e conquistar a fluência no idioma — experiência que também me ajudou a desenvolver habilidades de adaptação, comunicação e trabalho em ambientes multiculturais.</p>
-                <p>Atualmente, busco oportunidades para colaborar com times que valorizem inovação, aprendizado constante e entrega de valor real através da tecnologia.</p>
+                <h2 data-i18n="sobre-main">Sobre mim</h2>
+                <p data-i18n="paragrafo1">Sou Engenheiro de Software com foco em desenvolvimento de soluções eficientes e escaláveis. Tenho experiência com <span>JAVASCRIPT, HTML, CSS, JAVA E PYTHON</span>, sempre priorizando código limpo e boas práticas.</p>  
+                <p data-i18n="paragrafo2">Tive a oportunidade de morar nos Estados Unidos por 1 ano durante um intercâmbio, onde pude aperfeiçoar o inglês e conquistar a fluência no idioma — experiência que também me ajudou a desenvolver habilidades de adaptação, comunicação e trabalho em ambientes multiculturais.</p>
+                <p data-i18n="paragrafo3">Atualmente, busco oportunidades para colaborar com times que valorizem inovação, aprendizado constante e entrega de valor real através da tecnologia.</p>
             </div>
 
             <div class="mini-cards">
@@ -77,11 +78,11 @@
                         <img src="imagens/Idioma.png" alt="Ícone Idiomas">
                     </div>
                     <div class="mini-card-texto">
-                        <h3>Idiomas</h3>
+                        <h3 data-i18n="idioma">Idiomas</h3>
                         <ul>
-                            <li>Inglês: Fluente</li>
-                            <li>Português: Fluente</li>
-                            <li>Espanhol: intermediário</li>
+                            <li data-i18n="idioma-en">Inglês: Fluente</li>
+                            <li data-i18n="idioma-pt">Português: Fluente</li>
+                            <li data-i18n="idioma-es">Espanhol: intermediário</li>
                         </ul>
                     </div>
                 </div>
@@ -91,13 +92,13 @@
                         <img src="imagens/Habilidades.png" alt="Ícone Habilidades">
                     </div>
                     <div class="mini-card-texto">
-                        <h3>Habilidades</h3>
+                        <h3 data-i18n="habilidades">Habilidades</h3>
                         <ul>
-                            <li>Adaptabilidade</li>
-                            <li>Comunicação</li>
-                            <li>Proatividade</li>
-                            <li>Trabalho em equipe</li>
-                            <li>Organização</li>
+                            <li data-i18n="hab1">Adaptabilidade</li>
+                            <li data-i18n="hab2">Comunicação</li>
+                            <li data-i18n="hab3">Proatividade</li>
+                            <li data-i18n="hab4">Trabalho em equipe</li>
+                            <li data-i18n="hab5">Organização</li>
                         </ul>
                     </div>
                 </div>
@@ -107,84 +108,93 @@
                         <img src="imagens/Tecnologias.png" alt="Ícone Tecnologias">
                     </div>
                     <div class="mini-card-texto">
-                        <h3>Outras Tecnologias</h3>
+                        <h3 data-i18n="tecnologias">Outras Tecnologias</h3>
                         <ul>
-                            <li>Git</li>
-                            <li>Github</li>
-                            <li>Figma</li>
-                            <li>MySQL</li>
-                            <li>PostgreSQL</li>
+                            <li data-i18n="tec1">Git</li>
+                            <li data-i18n="tec2">Github</li>
+                            <li data-i18n="tec3">Figma</li>
+                            <li data-i18n="tec4">MySQL</li>
+                            <li data-i18n="tec5">PostgreSQL</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="cursos" class="cursos">
-            <h2>Cursos</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus eligendi hic dolore quod provident id quam tenetur</p>
-            <a href="certificados/clientes.pdf" target="_blank" class="certificado-link">
-                Visualizar Certificado
-            </a>
+<!--PROJETOS-->
 
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus eligendi hic dolore quod provident id quam tenetur</p>
-            <a href="certificados/comece-certo.pdf" target="_blank" class="certificado-link">
-                Visualizar Certificado
-            </a>
+        <section class="projetos" id="projetos">
+            <h2 data-i18n="projetos">Projetos</h2>
+                <div class="projeto-card">
+                    <img src="imagens/projeto1.png" alt="Projeto 1">
+                    <div projeto-card-texto>
+                        <h3 data-i18n="projeto1">Projeto 1</h3>
+                        <p data-i18n="descricao-projeto1">Descrição do projeto 1.</p>
+                        <h4>Tecnologias utilizadas</h4>
+                        <a href="#" target="_blank" class="botao-projeto">Ver Projeto</a>
+                    </div>
+                </div>
 
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus eligendi hic dolore quod provident id quam tenetur</p>
-            <a href="certificados/divulgacao.pdf" target="_blank" class="certificado-link">
-                Visualizar Certificado
-            </a>
+                <div class="projeto-card">
+                    <img src="imagens/projeto2.png" alt="Projeto 2">
+                    <div projeto-card-texto>
+                        <h3 data-i18n="projeto2">Projeto 2</h3>
+                        <p data-i18n="descricao-projeto2">Descrição do projeto 2.</p>
+                        <h4>Tecnologias utilizadas</h4>
+                        <a href="#" target="_blank" class="botao-projeto">Ver Projeto</a>
+                    </div>
+                </div>
 
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus eligendi hic dolore quod provident id quam tenetur</p>
-            <a href="certificados/transforme-seguidores.pdf" target="_blank" class="certificado-link">
-                Visualizar Certificado
-            </a>
+                <div class="projeto-card">
+                    <img src="imagens/projeto3.png" alt="Projeto 3">
+                    <div projeto-card-texto>
+                        <h3 data-i18n="projeto3">Projeto 3</h3>
+                        <p data-i18n="descricao-projeto3">Descrição do projeto 3.</p>
+                        <h4>Tecnologias utilizadas</h4>
+                        <a href="#" target="_blank" class="botao-projeto">Ver Projeto</a>
+                    </div>
+                </div>
 
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus eligendi hic dolore quod provident id quam tenetur</p>
-            <a href="certificados/certificado.pdf" target="_blank" class="certificado-link">
-                Visualizar Certificado
-            </a>
+                <div class="projeto-card">
+                    <img src="imagens/projeto4.png" alt="Projeto 4">
+                    <div projeto-card-texto>
+                        <h3 data-i18n="projeto4">Projeto 4</h3>
+                        <p data-i18n="descricao-projeto4">Descrição do projeto 4.</p>
+                        <h4>Tecnologias utilizadas</h4>
+                        <a href="#" target="_blank" class="botao-projeto">Ver Projeto</a>
+                    </div>
+                </div>
 
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus eligendi hic dolore quod provident id quam tenetur</p>
-            <a href="certificados/certificado.pdf" target="_blank" class="certificado-link">
-                Visualizar Certificado
-            </a>
-
+                <div class="projeto-card">
+                    <img src="imagens/projeto5.png" alt="Projeto 5">
+                    <div projeto-card-texto>
+                        <h3 data-i18n="projeto3">Projeto 5</h3>
+                        <p data-i18n="descricao-projeto5">Descrição do projeto 5.</p>
+                        <h4>Tecnologias utilizadas</h4>
+                        <a href="#" target="_blank" class="botao-projeto">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="escolaridade" class="escolaridade">
-            <h2>Escolaridade</h2>
-                <h3>Ensino Médio</h3>
-                    <h4>tal escola | 2019</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat autem velit ad eaque nisi</p>
-                    <h4>tal escola | 2019-2020</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat autem velit ad eaque nisi</p>
-                    <h4>tal escola | 2021</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat autem velit ad eaque nisi</p>  
-                    <h3>Ensino Superior</h3>
-                <h4>tal faculdade | 2022</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, cumque laboriosam in quidem</p>
-            <h4>tal faculdade | 2023-2026</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, cumque laboriosam in quidem</p>
-        </section>
+<!--CONTATO | FOOTER-->
 
         <section id="contato" class="contato-footer">
             <footer>
-                <h2>Contato</h2>
+                <h2 data-i18n="contato">Contato</h2>
                 <ul>
                     <li><span>Email:</span> 20230006183@estudantes.ifpr.edu.br</li>
-                    <li><span>Telefone:</span> (44) 99176-8428</li>
+                    <li><span data-i18n="telefone">Telefone:</span> (44) 99176-8428</li>
                     <li>
                         <a href="https://api.whatsapp.com/send?phone=5544991768428&text=Olá,%20encontrei%20este%20contato%20através20%do20%Romulo's20%Portfolio!" 
                            target="_blank" 
-                           class="whatsapp-link">
+                           class="whatsapp-link"
+                           data-i18n="whatsapp">
                             <span>WhatsApp:</span> Clique aqui
                         </a>
                     </li>
                 </ul>
-                <p class="direitos">
+                <p data-i18n="direitos" class="direitos">
                     versão portfolio 15 - 2025
                 </p>
             </footer>
