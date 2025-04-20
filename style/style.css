@@ -303,6 +303,11 @@ main p{
     box-sizing: border-box;
 }
 
+.projeto-card img{
+    max-width: 25vw;
+    max-height: 20vw;
+}
+
 .contato-footer {
     font-weight: normal;
 }
