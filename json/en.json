@@ -2,7 +2,6 @@
     "sobre-header": "About",
     "projetos-header": "Projects",
     "contato-header": "Contact",
-    "tema-claro": "Light Theme",
 
     "ola": "Hello World,",
     "eu-sou": "I am <span>Romulo</span>,<br>Software Engineer.",
@@ -32,7 +31,41 @@
     "tec4": "MySQL",
     "tec5": "PostgreSQL",
 
+    "descricao-projeto1": "This project is a Landing Page for the Onixx group, developed as part of a collaborative effort. It demonstrates front-end development skills, including the creation of modern and responsive interfaces, with a focus on design and user experience (UX). The project reflects the ability to work in a team, apply good web development practices, and use appropriate tools to create a professional digital presence.",
+
+    "descricao-projeto2": "This project is a backend system for managing banking operations, developed in Java using frameworks and libraries such as JPA (Hibernate) for data persistence and MySQL as a relational database. It simulates essential functionalities of a banking system, including: Client and Account Management; Banking Operations; Advanced Features; Testing and Simulations.",
+
+
+    "descricao-projeto3": "This project is an Interactive Menu in Python that demonstrates fundamental programming skills. The menu allows the user to select specific options, using structures such as functions, loops (like while), and control flows (if, else, break, and continue). Additionally, the project makes use of essential libraries such as math and random.",
+
+    "saiba-mais": "View more",
+
+    "api-titulo": "GitHub Repositories",
+
+    "api-descricao": "Access my other repositories on GitHub to see more projects and contributions.",
+
+    "ver-todos": "View all",
+
     "contato": "Contact",
     "telefone": "Phone",
-    "whatsapp": "<span>Whatsapp:</span> Click Here"
+    "whatsapp": "<span>Whatsapp:</span> Click Here",
+
+
+
+
+
+
+    
+
+    "alt-foto-perfil": "Foto de Perfil",
+    "alt-icone-github": "Ícone do Github",
+    "alt-icone-linkedin": "Ícone do Linkedin",
+    "alt-icone-idiomas": "Ícone Idiomas",
+    "alt-icone-habilidades": "Ícone Habilidades",
+    "alt-icone-tecnologias": "Ícone Tecnologias",
+
+    "imagem-onixx": "Imagem de landing page para empresa onixx",
+    "imagem-banco": "Ícone de banco",
+    "imagem-menu": "Ícone de menu",
+    "imagem-github": "Ícone do GitHub"
 }

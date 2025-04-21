@@ -32,6 +32,20 @@
     "tec4": "MySQL",
     "tec5": "PostgreSQL",
 
+    "descricao-projeto1": "Este projeto é uma Landing Page para o grupo Onixx, desenvolvido como parte de um trabalho colaborativo. Ele demonstra habilidades em desenvolvimento front-end, incluindo a criação de interfaces modernas e responsivas, com foco em design e experiência do usuário (UX). O projeto reflete a capacidade de trabalhar em equipe, aplicar boas práticas de desenvolvimento web e utilizar ferramentas apropriadas para criar uma presença digital profissional.",
+
+    "descricao-projeto2": "Este projeto é um sistema backend para gerenciamento de operações bancárias, desenvolvido em Java com o uso de frameworks e bibliotecas como JPA (Hibernate) para persistência de dados e MySQL como banco de dados relacional. Ele simula funcionalidades essenciais de um sistema bancário, incluindo: Gerenciamento de Clientes e Contas; Operações Bancárias; Funcionalidades Avançadas; Testes e Simulações.",
+
+    "descricao-projeto3": "Este projeto é um Menu Interativo em Python que demonstra habilidades fundamentais em programação. O menu permite ao usuário selecionar opções específicas, utilizando estruturas como funções, loops (como while), e controles de fluxo (if, else, break, e continue). Além disso, o projeto faz uso de bibliotecas essenciais como math e random.",
+
+    "saiba-mais": "Saiba mais",
+
+    "api-titulo": "Repositórios GitHub",
+
+    "api-descricao": "Acesse meus outros repositórios no GitHub para ver mais projetos e contribuições.",
+
+    "ver-todos": "Ver todos",
+
     "contato": "Contato",
     "telefone": "Telefone",
     "whatsapp": "<span>Whatsapp:</span> Clique Aqui"
