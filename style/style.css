@@ -197,6 +197,7 @@ header {
     color: var(--cor-secundaria);
 }
 
+/*MAIN*/
 main{
     padding: 10% 10%;
 
@@ -218,7 +219,7 @@ main p{
     text-wrap: wrap;
     text-align: justify;        
 }
-
+/*SOBRE*/
 .sobre {
     padding: 2em 4em;
     box-shadow: 0 0 1.5em #191919;
@@ -283,6 +284,8 @@ main p{
     margin-left: 1.2em;
 }
 
+/*PROJETOS*/
+
 .projetos {
     display: flex;
     flex-direction: column;
@@ -306,7 +309,86 @@ main p{
 .projeto-card img{
     max-width: 25vw;
     max-height: 20vw;
+    border-radius: 0.5em;
 }
+
+.projeto-card-texto {
+    padding-left: 2em;
+}
+
+.projeto-card-texto h3{
+    font-size: 1.7em;
+    padding-bottom: 1em;
+}
+
+.projeto-tecnologias {
+    margin-top: 0.3em;
+    display: flex;
+    flex-direction: row;
+}
+
+.projeto-tecnologias h4 {
+    margin-right: 0.8em;
+    border: 2px dotted var(--cor-fonte2);
+    border-radius: 1em;
+    padding: 0.1em 0.5em;
+
+    font-size: 0.85em;
+    font-weight: 50;
+    color: var(--cor-fonte2);
+}
+
+.botao-projeto {
+    margin-top: 1em;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    padding: 0.4em 1em;
+    border: solid 2px var(--cor-secundaria);
+    border-radius: 100px;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: var(--cor-fonte);
+    background-color: none;
+    cursor: pointer;
+}
+
+/*API*/
+
+.api-repositorios {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: var(--cor-bg);
+    border-radius: 8px;
+}
+
+.api-repositorios ul {
+    list-style: none;
+    padding: 0;
+}
+
+.api-repositorios li {
+    margin-bottom: 15px;
+}
+
+.api-repositorios a {
+    font-weight: bold;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+
+.api-repositorios a:hover {
+    text-decoration: underline;
+}
+
+.api-repositorios p {
+    margin: 5px 0 0;
+    font-size: 0.9em;
+    color: var(--cor-fonte);
+}
+
+
+/*CONTATO*/
 
 .contato-footer {
     font-weight: normal;

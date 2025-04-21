@@ -48,3 +48,30 @@ function traduzirPagina(linguagem) {
         }
     });
 }
+
+function carregarRepositorios() {
+    const url = 'https://api.github.com/users/RomuloJB/repos?per_page=5';
+
+    fetch(url) 
+        .then(response => {
+            if(! response.ok) {
+                throw new Error('Erro ao buscar repositórios');
+            }
+            return response.json();
+        })
+
+        .then(repos => {
+            const listaReps = document.querySelector(".lista-rep");
+            repos.forEach(repo => {
+                const listItem = document.createElement("li");
+                listItem.innerHTML =
+                    `<a href="${repo.html_url}" target="_blank">${repo.name}</a>`;
+                listaReps.appendChild(listItem);
+            });
+        })
+        .catch(error => {
+            console.error('Erro:', error);
+        });
+}
+
+document.addEventListener("DOMContentLoaded", carregarRepositorios);
