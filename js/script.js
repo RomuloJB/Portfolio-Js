@@ -50,7 +50,7 @@ function traduzirPagina(linguagem) {
 }
 
 function carregarRepositorios() {
-    const url = 'https://api.github.com/users/RomuloJB/repos?per_page=5';
+    const url = 'https://api.github.com/users/RomuloJB/repos?per_page=10';
 
     fetch(url) 
         .then(response => {

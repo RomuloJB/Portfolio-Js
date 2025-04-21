@@ -78,8 +78,8 @@ header {
 .hamburguer::after{
     content: " ";
     display: block;
-    width: 30px;
-    height: 3px;
+    width: 4vw;
+    height: 0.3vh;
     background: var(--cor-fonte);
     margin-top: 5px;
     position: relative;
@@ -356,10 +356,15 @@ main p{
 /*API*/
 
 .api-repositorios {
-    margin: 20px 0;
-    padding: 10px;
     background-color: var(--cor-bg);
-    border-radius: 8px;
+    border-radius: 1em;
+    padding: 2em;
+    border: 1px solid var(--cor-secundaria);
+    border-radius: 1em;
+    flex: 1 1 calc(100% - 1em);
+    max-width: calc(100% - 1em);
+    min-width: 165px;
+    box-sizing: border-box;
 }
 
 .api-repositorios ul {
@@ -368,7 +373,7 @@ main p{
 }
 
 .api-repositorios li {
-    margin-bottom: 15px;
+    margin-top: 0.5em;
 }
 
 .api-repositorios a {
@@ -378,15 +383,8 @@ main p{
 }
 
 .api-repositorios a:hover {
-    text-decoration: underline;
-}
-
-.api-repositorios p {
-    margin: 5px 0 0;
-    font-size: 0.9em;
     color: var(--cor-fonte);
 }
-
 
 /*CONTATO*/
 
