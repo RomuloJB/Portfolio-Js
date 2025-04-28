@@ -432,6 +432,52 @@ main p{
     color: var(--cor-secundaria);
 }
 
+/*FORMULARIO DE CONTATO*/
+.formulario-contato {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
+
+    padding: 2em;
+    box-shadow: 0 0 1.5em #191919;
+    border-radius: 2em;
+}
+
+.formulario-contato h3 {
+    font-size: 1.2em;
+}
+
+.formulario-contato input, textarea {
+    border: 1px solid var(--cor-secundaria);
+    background-color: var(--cor-bg);
+    padding: 0.7em;
+    border-radius: 0.5em;
+    color: var(--cor-fonte);
+    width: 100%;
+    margin-bottom: 1.2em;
+}
+
+.formulario-contato textarea {
+    resize: vertical;
+    min-height: 7vh;
+    width: 100%;
+}
+
+.formulario-contato button {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-fonte);
+    padding: 0.7em 0.9em;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.formulario-contato button:hover {
+    background-color: var(--cor-fonte);
+    color: var(--cor-secundaria);
+    transition: 0.3s;
+}
+
 /*CONTATO*/
 
 .contato-footer {
@@ -643,7 +689,7 @@ main p{
     }
     
     main h2{
-        font-size: 2.5em;
+        font-size: 2em;
         padding-bottom: 0.5em;
     }
 
@@ -830,6 +876,53 @@ main p{
         cursor: pointer;
     }
 
+/*FORMULARIO DE CONTATO*/
+    .formulario-contato {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        margin-top: 4em;
+
+        padding: 2em;
+        box-shadow: 0 0 1.5em #191919;
+        border-radius: 2em;
+    }
+
+    .formulario-contato h3 {
+        font-size: 1.2em;
+    }
+
+    .formulario-contato input, textarea {
+        border: 1px solid var(--cor-secundaria);
+        background-color: var(--cor-bg);
+        padding: 0.5em;
+        border-radius: 0.5em;
+        color: var(--cor-fonte);
+        width: 100%;
+        margin-bottom: 1.2em;
+    }
+
+    .formulario-contato textarea {
+        resize: vertical;
+        min-height: 5vh;
+        width: 100%;
+    }
+
+    .formulario-contato button {
+        background-color: var(--cor-secundaria);
+        color: var(--cor-fonte);
+        padding: 0.7em 0.9em;
+        border: none;
+        border-radius: 100px;
+        cursor: pointer;
+    }
+
+    .formulario-contato button:hover {
+        background-color: var(--cor-fonte);
+        color: var(--cor-secundaria);
+        transition: 0.3s;
+    }
+
 /*CONTATO MOBILE*/
 
     .contato-footer {
@@ -862,7 +955,6 @@ main p{
         text-align: center;
         font-size: 0.9em;
         padding: 2% 0 1% 0;
-        margin-top: 10%;
-        border-top: var(--cor-fonte) 1px solid;
+        margin-top: 2%;
     }
 }

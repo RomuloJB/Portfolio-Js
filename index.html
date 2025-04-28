@@ -23,7 +23,7 @@
                 <li><a href="#sobre" data-i18n="sobre-header">Sobre</a></li>
                 <li><a href="#projetos" data-i18n="projetos-header">Projetos</a></li>
                 <!-- <li><a href="#escolaridade">Escolaridade</a></li> -->
-                <li><a href="#contato" data-i18n="contato-header">Contato</a></li>
+                <li><a href="#formulario-contato" data-i18n="contato-header">Contato</a></li>
                 <button class="botao-tema">Light</button>
                 <button class="botao-idioma" aria-label="Botão para alterar o idioma" onclick="alterarIdioma()" aria>PT | EN</button>
             </ul>
@@ -174,8 +174,27 @@
                     </div>
                 </div>
         </section>
+        
+        <section class="formulario-contato" id="formulario-contato">
+            
+            <h2>Formulário de Contato</h1>
+                <form
+                action="https://formsubmit.co/20230006183@estudantes.ifpr.edu.br"
+                method="POST"
+                class="form"
+                >
+                <h3 for="name">Nome</h3>
+                <input type="text" name="name" id="name" required />
+                <h3 for="email">E-mail</h3>
+                <input type="email" name="email" id="email" required />
+                <h3 for="message">Mensagem</h3>
+                <textarea name="message" id="message" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
     </main>
-
+        
 <!--CONTATO | FOOTER-->
 
         <section id="contato" class="contato-footer">
