@@ -482,10 +482,12 @@ main p{
 
 
 
-@media (max-width: 750px) {
-    html, body{
+@media (max-width: 920px) {
+    html{
         height: 100%;
     }
+
+
 
     .header {
         border-bottom: var(--cor-fonte) solid 1px;
@@ -637,12 +639,12 @@ main p{
 /*MAIN MOBILE*/
 
     main {
-        padding: 5% 10%;
+        padding: 10% 6%;
     }
     
     main h2{
         font-size: 2.5em;
-        padding-bottom: 1em;
+        padding-bottom: 0.5em;
     }
 
     main p{
@@ -655,6 +657,17 @@ main p{
 
 /*SOBRE MOBILE*/
 
+    .sobre {
+        padding: 2em;
+        box-shadow: 0 0 1.5em #191919;
+        border-radius: 2em;
+        margin-bottom: 4em;
+    }
+
+    .sobre p{
+        font-size: 1em;
+    }
+
     .mini-cards {
         gap: 2em;
     }
@@ -665,7 +678,7 @@ main p{
     }
 
     .mini-card-texto {
-        margin: 0 0.5em
+        margin: 0 0.5em;
     }
 
 /*PROJETOS MOBILE*/
@@ -675,7 +688,8 @@ main p{
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 2em;
+        margin-bottom: 2em;
+        gap: none;
     }
 
     .projeto-card {
@@ -716,7 +730,7 @@ main p{
     }
 
     .projeto-card-texto p{
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
     .projeto-tecnologias h4 {
