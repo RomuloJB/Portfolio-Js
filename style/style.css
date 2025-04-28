@@ -7,6 +7,9 @@
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     margin: 0;
     background-color: var(--cor-bg);
     color: var(--cor-fonte);
@@ -199,8 +202,8 @@ header {
 
 /*MAIN*/
 main{
-    padding: 10% 10%;
-
+    padding: 10% 10% 5%;
+    flex: 1;
 }
 
 main section{
@@ -309,7 +312,6 @@ main p{
 
 .projeto-card img{
     max-width: 25vw;
-    max-height: 20vh;
     border-radius: 0.5em;
 }
 
@@ -352,6 +354,11 @@ main p{
     color: var(--cor-fonte);
     background-color: none;
     cursor: pointer;
+}
+
+.botao-projeto:hover{
+    transition: 0.3s;
+    color: var(--cor-secundaria);
 }
 
 /*API*/
@@ -420,15 +427,28 @@ main p{
     cursor: pointer;
 }
 
+.api-repositorios .botao-repositorios:hover{
+    transition: 0.3s;
+    color: var(--cor-secundaria);
+}
+
 /*CONTATO*/
 
 .contato-footer {
+    border-top: var(--cor-fonte) solid 1px;
     font-weight: normal;
+    padding: 2% 5% 0;
+}
+
+.contato-footer h2{
+    font-size: 2em;
+    padding-bottom: 1em;
 }
 
 .contato-footer li{
     padding-bottom: 2%;
     font-size: 1.2em;
+    list-style: none;
 }
 
 .contato-footer li span{
@@ -452,7 +472,6 @@ main p{
     text-align: center;
     font-size: 0.9em;
     padding: 2% 0 1% 0;
-    border-top: var(--cor-fonte) 1px solid;
 }
 
 
